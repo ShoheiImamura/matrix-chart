@@ -5,6 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build-for-github": "vue-cli-service build && mv dist docs",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
